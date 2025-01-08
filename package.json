@@ -1,6 +1,6 @@
 {
   "name": "@fugashu/alphland-api-client",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "API client for Alphland on Alephium",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
