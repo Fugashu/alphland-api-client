@@ -44,3 +44,9 @@ export function DAppList() {
   );
 }
 ```
+
+## dApp List
+
+A list of all dApps can be found here:
+
+https://github.com/Cojodi/alphland/tree/develop/data
