@@ -1,6 +1,6 @@
 {
   "name": "@fugashu/alphland-api-client",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "API client for Alphland on Alephium",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -12,7 +12,8 @@
     "build": "tsc",
     "generate": "openapi-generator-cli generate -i http://localhost:3000/api-json -g typescript-axios -o ./src",
     "prepare": "npm run build",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "publish": "npm publish"
   },
   "publishConfig": {
     "access": "public"
